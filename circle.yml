@@ -40,7 +40,7 @@ jobs:
         command: 'sudo docker info >/dev/null 2>&1 || sudo service docker start; '
     - run:
        command: |-
-         printf '127.0.0.1       petstore.swagger.io
+         printf '127.0.0.2       petstore.swagger.io
          ' | sudo tee -a /etc/hosts
     # Dependencies
     # Install latest stable node for angular 6
